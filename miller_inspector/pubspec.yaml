@@ -1,0 +1,26 @@
+name: miller_inspector
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+4
+  image_picker: ^1.0.4
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  pdf: ^3.10.4
+  printing: ^5.9.3
+  share_plus: ^6.3.2
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
